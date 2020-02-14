@@ -1,0 +1,31 @@
+{
+  "name": "FSIMCore",
+  "version": "1.0.0",
+  "summary": "FSIMCore IM 基础库",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Louisiu/FSIMCore",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Louisiu": "fsliu136@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Louisiu/FSIMCore.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "FSIMCore/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "dependencies": {
+    "RongCloudIM/IMLib": [
+      "~> 2.9.8"
+    ]
+  }
+}

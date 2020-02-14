@@ -1,0 +1,27 @@
+PODS:
+  - FSIMCore (1.0.0):
+    - RongCloudIM/IMLib (~> 2.9.8)
+  - Kiwi (3.0.0)
+  - RongCloudIM/IMLib (2.9.17)
+
+DEPENDENCIES:
+  - FSIMCore (from `../`)
+  - Kiwi
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Kiwi
+    - RongCloudIM
+
+EXTERNAL SOURCES:
+  FSIMCore:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FSIMCore: 72294061c04ba24c91d42452da967829c25ef623
+  Kiwi: fbeafef0f00e4d8f7dcb3420a4930afe70af77f7
+  RongCloudIM: 9f63653ff70d91913177fcf991f7b889901fb8de
+
+PODFILE CHECKSUM: 75e63164b2622be23134118e886517adb9754ba7
+
+COCOAPODS: 1.8.4

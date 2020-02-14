@@ -1,0 +1,15 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+#use_frameworks!
+
+platform :ios, '9.0'
+
+target 'FSIMCore_Example' do
+  pod 'FSIMCore', :path => '../'
+
+  target 'FSIMCore_Tests' do
+    inherit! :search_paths
+
+    pod 'Kiwi'
+  end
+end
